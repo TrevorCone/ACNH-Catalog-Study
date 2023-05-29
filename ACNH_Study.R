@@ -1,0 +1,8 @@
+library(data.table)
+library(tidyverse)
+library(sqldf)
+library(DBI)
+setwd("~/ACNH-Catalog-Study")
+readAC()
+CREATESQLITE()
+dbListTables(ACNH_Catalog)
